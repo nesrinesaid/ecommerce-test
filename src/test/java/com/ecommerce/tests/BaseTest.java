@@ -26,7 +26,13 @@ public class BaseTest {
     @AfterEach
     public void tearDown() {
         if (driver != null) {
+            // Pause 3 seconds so you can see the final state
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {}
+            
+            
             driver.quit();
         }
     }
-}
+    }
