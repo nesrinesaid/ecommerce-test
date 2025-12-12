@@ -1,7 +1,7 @@
 package com.ecommerce.tests;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.  chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome. ChromeOptions;
 import org. junit.jupiter.api.AfterEach;
 import org.  junit.jupiter.api.BeforeEach;
